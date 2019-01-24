@@ -1,0 +1,47 @@
+#box{
+    max-height: 55em;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0% 3% 3% 3%;
+    overflow-y: auto;
+    border: 0.03em solid #989898;
+}
+
+#list{
+    list-style-type: none;
+    padding: 0em;
+}
+
+.list-item{
+    background-color: #F5F5F5;
+    color: #2D2D2D;
+    font-size: 1.3em;
+    padding: 3%;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.date{
+    position: absolute;
+    right: 0.3em;
+    bottom: 0.1em;
+}
+
+.close{
+    position: absolute;
+    right: 1.7em;
+    top: 0.1em;
+    color: #2D2D2D;
+}
+
+.close:hover{
+    color: #000;
+}
+
+.update{
+    position: absolute;
+    right: 0.3em;
+    top: 0.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+}
